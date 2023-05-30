@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e1195e7-9a0e-4a53-abc9-75ea07a3c761" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/AnonymousHandlerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/LambdaExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_23__11_44_AM__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/LoanCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/MouseEvents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/monari/Desktop/eventHandlingModule"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/monari/Desktop/recursions_module&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.LambdaExpression">
+}</component>
+  <component name="RunManager" selected="Application.MouseEvents">
     <configuration name="AnonymousHandlerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.AnonymousHandlerDemo" />
       <module name="eventHandlingModule" />
@@ -81,8 +80,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoanCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.LoanCalculator" />
+      <module name="eventHandlingModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.eventhandlingmodule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MouseEvents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.MouseEvents" />
+      <module name="eventHandlingModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.eventhandlingmodule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MouseEvents" />
+        <item itemvalue="Application.LoanCalculator" />
         <item itemvalue="Application.LambdaExpression" />
         <item itemvalue="Application.AnonymousHandlerDemo" />
         <item itemvalue="Application.ControlCircle" />
