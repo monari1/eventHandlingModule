@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e1195e7-9a0e-4a53-abc9-75ea07a3c761" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/LoanCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/MouseEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/KeyEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,20 +27,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2PVBi9Rvbqrve8tgHUXWNLCWRBr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/monari/Desktop/recursions_module&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/monari/Desktop/eventHandlingModule",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.MouseEvents">
+}]]></component>
+  <component name="RunManager" selected="Application.KeyEvents">
     <configuration name="AnonymousHandlerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.AnonymousHandlerDemo" />
       <module name="eventHandlingModule" />
@@ -54,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControlCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.ControlCircle" />
+    <configuration name="KeyEvents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.KeyEvents" />
       <module name="eventHandlingModule" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KeyEvents" />
         <item itemvalue="Application.MouseEvents" />
         <item itemvalue="Application.LoanCalculator" />
         <item itemvalue="Application.LambdaExpression" />
         <item itemvalue="Application.AnonymousHandlerDemo" />
-        <item itemvalue="Application.ControlCircle" />
       </list>
     </recent_temporary>
   </component>
