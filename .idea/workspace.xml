@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e1195e7-9a0e-4a53-abc9-75ea07a3c761" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/ObservablePropertyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/ResizableCircleRectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,38 +35,28 @@
     </option>
   </component>
   <component name="ProjectId" id="2PVBi9Rvbqrve8tgHUXWNLCWRBr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/monari/Desktop/eventHandlingModule&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/monari/Desktop/eventHandlingModule",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.ObservablePropertyDemo">
+}]]></component>
+  <component name="RunManager" selected="Application.ResizableCircleRectangle">
     <configuration name="KeyEvents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.KeyEvents" />
-      <module name="eventHandlingModule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.eventhandlingmodule.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.LambdaExpression" />
       <module name="eventHandlingModule" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ResizableCircleRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.ResizableCircleRectangle" />
+      <module name="eventHandlingModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.eventhandlingmodule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResizableCircleRectangle" />
         <item itemvalue="Application.ObservablePropertyDemo" />
         <item itemvalue="Application.KeyEvents" />
         <item itemvalue="Application.MouseEvents" />
         <item itemvalue="Application.LoanCalculator" />
-        <item itemvalue="Application.LambdaExpression" />
       </list>
     </recent_temporary>
   </component>
@@ -137,5 +140,19 @@
       <updated>1683532499455</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
