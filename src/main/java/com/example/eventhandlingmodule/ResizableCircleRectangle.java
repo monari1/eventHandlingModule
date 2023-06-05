@@ -28,7 +28,7 @@ public class ResizableCircleRectangle extends Application {
         pane.getChildren().addAll(rectangle, circle);
 
         Scene scene = new Scene(pane, 140 , 140);
-        primaryStage.setTitle("Resizable Rectangle and Circl");
+        primaryStage.setTitle("Resizable Rectangle and Circle");
         primaryStage.setScene(scene);
         primaryStage.show();
 
