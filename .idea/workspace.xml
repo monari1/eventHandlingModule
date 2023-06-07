@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e1195e7-9a0e-4a53-abc9-75ea07a3c761" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/images/download.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/images/download.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/FlagRisingAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/PathTransitionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/FadeTransitionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/ResizableCircleRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/ResizableCircleRectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,15 +48,15 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/monari/Desktop/eventHandlingModule&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/monari/Desktop/recursions_module&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PathTransitionDemo">
-    <configuration name="FlagRisingAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.FlagRisingAnimation" />
+  <component name="RunManager" selected="Application.FadeTransitionDemo">
+    <configuration name="FadeTransitionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.FadeTransitionDemo" />
       <module name="eventHandlingModule" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyEvents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.KeyEvents" />
+    <configuration name="FlagRisingAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.FlagRisingAnimation" />
       <module name="eventHandlingModule" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FadeTransitionDemo" />
         <item itemvalue="Application.PathTransitionDemo" />
         <item itemvalue="Application.FlagRisingAnimation" />
         <item itemvalue="Application.ResizableCircleRectangle" />
         <item itemvalue="Application.ObservablePropertyDemo" />
-        <item itemvalue="Application.KeyEvents" />
       </list>
     </recent_temporary>
   </component>
