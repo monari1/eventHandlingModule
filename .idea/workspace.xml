@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e1195e7-9a0e-4a53-abc9-75ea07a3c761" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/SiepTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/SiepTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/SiepTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FadeTransitionDemo">
+  <component name="RunManager" selected="Application.SiepTriangle">
     <configuration name="FadeTransitionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.FadeTransitionDemo" />
       <module name="eventHandlingModule" />
@@ -70,19 +70,6 @@
     </configuration>
     <configuration name="FlagRisingAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.FlagRisingAnimation" />
-      <module name="eventHandlingModule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.eventhandlingmodule.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObservablePropertyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.ObservablePropertyDemo" />
       <module name="eventHandlingModule" />
       <extension name="coverage">
         <pattern>
@@ -120,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SiepTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.SiepTriangle" />
+      <module name="eventHandlingModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.eventhandlingmodule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SiepTriangle" />
         <item itemvalue="Application.FadeTransitionDemo" />
         <item itemvalue="Application.PathTransitionDemo" />
         <item itemvalue="Application.FlagRisingAnimation" />
         <item itemvalue="Application.ResizableCircleRectangle" />
-        <item itemvalue="Application.ObservablePropertyDemo" />
       </list>
     </recent_temporary>
   </component>
