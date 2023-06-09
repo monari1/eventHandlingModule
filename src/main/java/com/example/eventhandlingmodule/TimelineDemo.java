@@ -1,10 +1,12 @@
 package com.example.eventhandlingmodule;
 
+import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
@@ -33,9 +35,25 @@ public class TimelineDemo extends Application {
         };
 
 //        CREATE AN ANIMATION FOR ALTERNATING TEXT
-        Timeline animation = new Timeline(new KeyFrame(Duration.seconds(5), eventHandler));
+        Timeline animation = new Timeline(new KeyFrame(Duration.seconds(0.5), eventHandler));
         animation.setCycleCount(Timeline.INDEFINITE);
         animation.play();
+
+//        PAUSE AND RESUME ANIMATION
+        text.setOnMouseClicked(e->{
+            if(animation.getStatus()== Animation.Status.PAUSED)
+                animation.play();
+            else
+                animation.pause();
+
+        });
+
+//        SCENE
+
+        Scene scene = new Scene(pane, 400, 400);
+        primaryStage.setTitle("Timeline animation demo");
+        primaryStage.setScene(scene);
+        primaryStage.show();
 
 
 

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e1195e7-9a0e-4a53-abc9-75ea07a3c761" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/TimelineDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/TimelineDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SiepTriangle">
+  <component name="RunManager" selected="Application.TimelineDemo">
     <configuration name="FadeTransitionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.FadeTransitionDemo" />
       <module name="eventHandlingModule" />
@@ -93,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResizableCircleRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.ResizableCircleRectangle" />
-      <module name="eventHandlingModule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.eventhandlingmodule.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SiepTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.SiepTriangle" />
       <module name="eventHandlingModule" />
@@ -119,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimelineDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.TimelineDemo" />
+      <module name="eventHandlingModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.eventhandlingmodule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimelineDemo" />
         <item itemvalue="Application.SiepTriangle" />
         <item itemvalue="Application.FadeTransitionDemo" />
         <item itemvalue="Application.PathTransitionDemo" />
         <item itemvalue="Application.FlagRisingAnimation" />
-        <item itemvalue="Application.ResizableCircleRectangle" />
       </list>
     </recent_temporary>
   </component>
