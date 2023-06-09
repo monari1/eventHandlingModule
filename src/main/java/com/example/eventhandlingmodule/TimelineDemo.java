@@ -1,5 +1,7 @@
 package com.example.eventhandlingmodule;
 
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -7,6 +9,7 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 public class TimelineDemo extends Application {
 
@@ -28,6 +31,13 @@ public class TimelineDemo extends Application {
             else
                 text.setText("Programming is Fun");
         };
+
+//        CREATE AN ANIMATION FOR ALTERNATING TEXT
+        Timeline animation = new Timeline(new KeyFrame(Duration.seconds(5), eventHandler));
+        animation.setCycleCount(Timeline.INDEFINITE);
+        animation.play();
+
+
 
 
 
