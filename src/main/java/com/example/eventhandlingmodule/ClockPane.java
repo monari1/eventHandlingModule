@@ -76,9 +76,9 @@ public class ClockPane extends Pane {
 
         // Labelling the circle
         Text text1 = new Text(centerX - 5, centerY - clockRadius + 12, "12");
-        Text text2 = new Text(centerX - clockRadius + 3, centerY + 5, "9");
-        Text text3 = new Text(centerX + clockRadius - 10, centerY + 3, "3");
-        Text text4 = new Text(centerX - 3, centerY + clockRadius - 3, "6");
+        Text text4 = new Text(centerX - clockRadius + 3, centerY + 5, "9");
+        Text text2 = new Text(centerX + clockRadius - 10, centerY + 3, "3");
+        Text text3 = new Text(centerX - 3, centerY + clockRadius - 3, "6");
 
         //Draws Second Hand
         double sLength = clockRadius * 0.8;
