@@ -26,8 +26,8 @@ public class ClockAnimation extends Application {
         animation.setCycleCount(Timeline.INDEFINITE);
         animation.play();
 
-        Scene scene = new Scene(clock, 400, 400);
-        primaryStage.setTitle("Timeline animation demo");
+        Scene scene = new Scene(clock, 600, 600);
+        primaryStage.setTitle("Clock animation");
         primaryStage.setScene(scene);
         primaryStage.show();
 
