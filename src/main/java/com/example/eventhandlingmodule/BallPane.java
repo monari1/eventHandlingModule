@@ -3,6 +3,7 @@ package com.example.eventhandlingmodule;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Application;
+import javafx.beans.property.DoubleProperty;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
@@ -29,6 +30,40 @@ public class BallPane extends Pane {
         animation.setCycleCount(Timeline.INDEFINITE);
         animation.play();
 
+    }
+
+    public  void play(){
+        animation.play();
+    }
+    public  void pause(){
+        animation.pause();
+    }
+    public  void increaseSpeed(){
+        animation.setRate(animation.getRate()+1);
+    }
+    public  void decreaseSpeed(){
+        animation.setRate(animation.getRate()>0 ? animation.getRate()-0.1:0);
+
+    }
+    public DoubleProperty rateProperty(){
+        return animation.rateProperty();
+    }
+    protected  void moveBall(){
+        if (x < radius|| x > getWidth()-radius){
+            dx *= -1; // check boundaries
+        }
+
+        if (x < radius|| y > getHeight()-radius){
+            dy *= -1; // check boundaries
+        }
+
+//        adjust ball position
+
+        x += dx;
+        y += dy;
+
+        circle.setCenterX(x);
+        circle.setCenterY(y);
     }
 
 
