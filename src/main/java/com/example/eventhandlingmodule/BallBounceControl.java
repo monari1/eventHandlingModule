@@ -11,6 +11,7 @@ public class BallBounceControl extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+        BallPane ballPane = new BallPane();
 
     }
 }
