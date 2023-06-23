@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e1195e7-9a0e-4a53-abc9-75ea07a3c761" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/BallBounceControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/BallBounceControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/MapPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eventhandlingmodule/USMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ClockAnimation">
+  <component name="RunManager" selected="Application.BallBounceControl">
+    <configuration name="BallBounceControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.BallBounceControl" />
+      <module name="eventHandlingModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.eventhandlingmodule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClockAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.ClockAnimation" />
       <module name="eventHandlingModule" />
@@ -69,19 +84,6 @@
     </configuration>
     <configuration name="FadeTransitionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.FadeTransitionDemo" />
-      <module name="eventHandlingModule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.eventhandlingmodule.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PathTransitionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.eventhandlingmodule.PathTransitionDemo" />
       <module name="eventHandlingModule" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BallBounceControl" />
         <item itemvalue="Application.ClockAnimation" />
         <item itemvalue="Application.TimelineDemo" />
         <item itemvalue="Application.SiepTriangle" />
         <item itemvalue="Application.FadeTransitionDemo" />
-        <item itemvalue="Application.PathTransitionDemo" />
       </list>
     </recent_temporary>
   </component>
