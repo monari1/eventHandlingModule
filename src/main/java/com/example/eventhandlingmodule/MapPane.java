@@ -15,7 +15,9 @@ import java.util.Scanner;
 public class MapPane extends BorderPane {
     private Group group = new Group();
     MapPane(){
+//        loads the cordinates from a file
         ArrayList<ArrayList<Point2D>> points = getPoints();
+//        adds points to the polygon list
         for (int i = 0; i<points.size();i++ ){
             Polygon polygon = new Polygon();
 
@@ -48,6 +50,8 @@ public class MapPane extends BorderPane {
 
     }
     public void enlarge(){
+
+//        enlarges the map
         group.setScaleX(1.1*group.getScaleX());
         group.setScaleY(1.1*group.getScaleY());
 
@@ -55,6 +59,8 @@ public class MapPane extends BorderPane {
     }
 
     public void shrink(){
+
+//        shrinks the map
         group.setScaleX(0.9*group.getScaleX());
         group.setScaleY(0.9*group.getScaleY());
 
@@ -67,9 +73,11 @@ public class MapPane extends BorderPane {
             while (input.hasNext()){
                 String s = input.nextLine();
                 if (Character.isAlphabetic(s.charAt(0))){
+//                    create new state
                     points.add(new ArrayList<>());
                 }
                 else {
+//                    scans one point
                     Scanner scanAString = new Scanner(s);
                     double y = scanAString.nextDouble();
                     double x = scanAString.nextDouble();
