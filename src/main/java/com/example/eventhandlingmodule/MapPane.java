@@ -1,33 +1,30 @@
 package com.example.eventhandlingmodule;
 
-import javafx.application.Application;
 import javafx.geometry.Point2D;
 import javafx.scene.Group;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Polygon;
-import javafx.stage.Stage;
 
+import java.net.URI;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MapPane extends BorderPane {
-    private Group group = new Group();
+    private final Group group = new Group();
     MapPane(){
 //        loads the cordinates from a file
         ArrayList<ArrayList<Point2D>> points = getPoints();
 //        adds points to the polygon list
         for (int i = 0; i<points.size();i++ ){
             Polygon polygon = new Polygon();
-
-            for (int j = 0; j < points.get(i).size(); j++){
+            for(int j = 0; j < points.get(i).size(); j++)
                 polygon.getPoints().addAll(points.get(i).get(j).getX(), -points.get(i).get(j).getY());
-                polygon.setFill(Color.WHITE);
-                polygon.setStroke(Color.BLACK);
-                polygon.setStrokeWidth(1/14.0);
-
-                polygon.setOnMouseClicked(e->{
+            polygon.setFill(Color.WHITE);
+            polygon.setStroke(Color.BLACK);
+            polygon.setStrokeWidth(1/14.0);
+            polygon.setOnMouseClicked(e->{
 
                     if (e.getButton()== MouseButton.PRIMARY){
                         polygon.setFill(Color.RED);
@@ -48,7 +45,7 @@ public class MapPane extends BorderPane {
             this.setCenter(group);
         }
 
-    }
+
     public void enlarge(){
 
 //        enlarges the map
@@ -69,13 +66,11 @@ public class MapPane extends BorderPane {
 
     private ArrayList<ArrayList<Point2D>> getPoints(){
         ArrayList<ArrayList<Point2D>> points = new ArrayList<>();
-        try (Scanner input = new Scanner(new java.net.URL("https://liveexample.pearsoncmg.com/data/usmap.txt").openStream())) {
+        try (Scanner input = new Scanner(new URI("https://liveexample.pearsoncmg.com/data/usmap.txt").toURL().openStream())) {
             while (input.hasNext()){
                 String s = input.nextLine();
-                if (Character.isAlphabetic(s.charAt(0))){
-//                    create new state
-                    points.add(new ArrayList<>());
-                }
+                //                    create new state
+                if (Character.isAlphabetic(s.charAt(0))) points.add(new ArrayList<>());
                 else {
 //                    scans one point
                     Scanner scanAString = new Scanner(s);

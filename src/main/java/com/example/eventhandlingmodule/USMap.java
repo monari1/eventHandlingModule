@@ -15,6 +15,7 @@ public class USMap extends Application {
         primaryStage.setTitle("US MAP BY COLOR");
         primaryStage.setScene(scene);
         primaryStage.show();
+
         map.setOnKeyPressed(e->{
             if (e.getCode()== KeyCode.UP){
                 map.enlarge();
