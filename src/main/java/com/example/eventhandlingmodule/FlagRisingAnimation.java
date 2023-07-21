@@ -3,11 +3,14 @@ package com.example.eventhandlingmodule;
 import javafx.animation.PathTransition;
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 import javafx.util.Duration;
+
+import java.util.Objects;
 
 public class FlagRisingAnimation extends Application {
 
@@ -18,7 +21,7 @@ public class FlagRisingAnimation extends Application {
     @Override
     public void start(Stage primaryStage) {
         Pane pane = new Pane();
-        ImageView imageView = new ImageView("eventHandlingModule/src/main/images/download.gif");
+        ImageView imageView = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/image/download.jpeg"))));
 
         pane.getChildren().add(imageView);
         PathTransition pt = new PathTransition(Duration.seconds(10), new Line(100, 200, 100 , 0), imageView);
